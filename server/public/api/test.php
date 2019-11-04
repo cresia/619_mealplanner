@@ -75,8 +75,7 @@ if($count <= 5){
     $ingredientQuery = substr($ingredientQuery, 0, -1);
     $insertQueryResult = mysqli_query($conn, $ingredientQuery);
   };
-}
-
+};
 
 $result2 = mysqli_query($conn, $query);
 $output = [];

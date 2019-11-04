@@ -145,9 +145,10 @@ class RecipeDetails extends React.Component {
       },
       body: JSON.stringify(data),
     })
-    .then(response=>{
-      response.json()})
-
+  //   .then(response=>{
+  //     response.text()})
+  //     console.log(response)
+  // }
   }
 
   render() {

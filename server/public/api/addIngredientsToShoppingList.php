@@ -34,7 +34,6 @@ if (!$result) {
 }
 else{
   $output = ['success' => true];
-
 }
 
 print(json_encode($output));
