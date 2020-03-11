@@ -38,16 +38,19 @@ class App extends React.Component {
 
   render() {
     let title, display;
+    // let headerImg = "./image/redHeart.png";
 
     if (this.state.view.name === "home") {
       display = (
         <div>
-          <Header setView={this.setView} text="Epic Meal Planner"/>
+          <Header setView={this.setView} text={'epic meal planner'}/>
+      
+
           <div className="container">
             <div className="row justify-content-center my-5">
               <SearchBar setView={this.setView}/>
             </div>
-            <div>
+            <div className= "homeTextContainer">
               <div className="row justify-content-center font-weight-bold textFont homeText">Find a new dish.</div>
               <div className="row justify-content-center font-weight-bold textFont homeText">Plan your next meal.</div>
             </div>

@@ -1,7 +1,13 @@
 
 body{
-    background: url("../image/backgroundImage4.jpg") no-repeat bottom center scroll;
-   background-size:cover;
+    /* background: url("../image/backgroundImage4.jpg") no-repeat bottom center scroll; */
+    /* background: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-simple-white-wood-grain-food-promotion-psd-layered-master-map-background-image_163133.jpg") no-repeat bottom center scroll; */
+      background: url("https://s3.envato.com/files/239502243/T13A0274.jpg") no-repeat bottom center scroll;
+    background-size:cover;
+}
+
+.headerBackground{
+    background-color:white;
 }
 
 .contentRecipeBar{
@@ -62,26 +68,62 @@ body{
 }
 
 .homeText{
-    font-size: 2rem;
+     background-color: rgba(255, 255, 255, 0.6);
+     font-size: 2rem;
+     top:10%;
+
+    /* max-height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    word-break: break-word;
+    background-color: floralwhite;
+    border-radius: 2%;
+    padding: 0 5px; */
+}
+
+.homeTextContainer{
+    margin-top:33%;
+}
+
+.searchBarInput{
+    outline:none;
 }
 
 .headerMenuSize{
     font-size: 1.5rem;
 }
 
-.headerTextMenu{
-    display: inline-block;
-    color: black;
+
+.headerImage{
+    width:3rem;
+    height:3rem;
+
 }
+
+
+/*
+.headerTextMenu{ */
+    /* display: inline-block; */
+    /* color: black; */
+
+    /* background-image: url('./image/redHeart.png');
+    width: 5rem;
+    height: 5rem;
+    background-repeat: no-repeat; */
+/* } */
 
 .textFont{
     font-family: 'Nunito Sans', sans-serif;
     /* font-family: 'Merriweather', serif; */
+    font-family: 'Aclonica', sans-serif;
 }
 
 .textSize{
     font-size: 1.25rem;
+    /* background-color:white; */
+    /* color:white; */
 }
+
 
 .menu{
     display: inline-block;
@@ -109,6 +151,24 @@ input[type=checkbox]:checked + label{
     flex-direction: column;
     margin: 20px;
 }
+
+/*
+.homeText{
+    background-color: rgba(255, 255, 255, 0.6);
+
+  max-height: 70vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  word-break: break-word;
+
+background-color: floralwhite;
+
+
+border-radius: 2%;
+
+padding: 0 5px;
+} */
+
 
 .timeServing{
     height: 50px;
